@@ -42,8 +42,8 @@ def read_repo_data(repo_owner, repo_name):
     zf.close()
     return repository_data
 
-dtc_faq = read_repo_data('DataTalksClub', 'faq')
-evidently_docs = read_repo_data('evidentlyai', 'docs')
+# dtc_faq = read_repo_data('DataTalksClub', 'faq')
+# evidently_docs = read_repo_data('evidentlyai', 'docs')
 
-print(f"FAQ documents: {len(dtc_faq)}")
-print(f"Evidently documents: {len(evidently_docs)}")
+# print(f"FAQ documents: {len(dtc_faq)}")
+# print(f"Evidently documents: {len(evidently_docs)}")
